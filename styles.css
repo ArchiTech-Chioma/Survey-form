@@ -1,0 +1,62 @@
+body{
+    font-family:"Roboto", sans-serif;
+    background-image:url("Assests/building-6467081_1280.jpg") ;
+    background-size:contain;
+}
+
+form{
+    display:flex ;
+    flex-direction:column ;
+    gap: 10px;
+    width:50% ;
+    height: fit-content;
+    background-color:whitesmoke ;
+    border-radius:10px ;
+    padding:10px ;
+    margin:auto ;
+    margin-top:10px;
+    margin-bottom: 20px;
+
+}
+
+h3{
+    text-align: center;
+}
+
+label{
+    font:bold ;
+}
+
+input{
+    height: 20px;
+    border-radius: 10px;
+    outline-color:palevioletred;
+}
+ 
+button{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 14px 24px; border-radius: 20%;
+}
+button:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+button:focus{
+    background-color: grey;
+    cursor: pointer;
+
+    }
+
+.radio_container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox_container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
